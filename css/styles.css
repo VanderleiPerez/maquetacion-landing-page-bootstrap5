@@ -1,0 +1,16 @@
+/*POSICIÓN RELATIVA, PARA USAR COMPONENTE SCROLLSPY de BOOTSTRAP*/
+body{
+    position: relative;
+}
+
+/*ANIMACIÓN AL SELECCIONAR UNA CARD DE SUSCRÍBETE*/
+@media(min-width:668px){
+    .animacion{
+        transition: all 300ms;
+    }
+    .animacion:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 300ms;
+    }
+}

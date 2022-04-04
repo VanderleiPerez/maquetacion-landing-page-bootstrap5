@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bootstrap5 VPC</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-ejemplo" data-bs-offset="15" tabindex="0">
+    <!-- INICIO NAVBAR -->
+    <nav id="navbar-ejemplo" class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <i class="bi bi-patch-check-fill h3"></i>
+                <span class="align-text-bottom">Maquetación Bootstrap5</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="btb1">
+                        <a href="#inicio" class="nav-link active" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item" id="btb2">
+                        <a href="#servicio" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item" id="btb3">
+                        <a href="#comentario" class="nav-link">Comentarios</a>
+                    </li>
+                    <li class="nav-item" id="btb4">
+                        <a href="#suscribete" class="nav-link">Suscríbete</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+    <!-- INICIO SLIDER-->
+    <section id="inicio">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1000/500" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primer slider</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio quaerat doloribus
+                            molestiae perspiciatis a asperiores ab sint sunt doloremque vel voluptas quidem, aliquam
+                            esse eius, laborum adipisci voluptatem dolorum!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo slider</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio quaerat doloribus
+                            molestiae perspiciatis a asperiores ab sint sunt doloremque vel voluptas quidem, aliquam
+                            esse eius, laborum adipisci voluptatem dolorum!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tercer slider</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odio quaerat doloribus
+                            molestiae perspiciatis a asperiores ab sint sunt doloremque vel voluptas quidem, aliquam
+                            esse eius, laborum adipisci voluptatem dolorum!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- FIN SLIDER-->
+    <!-- INICIO MAIN: SERVICIOS -->
+    <main class="bg-dark text-white py-5" id="servicio">
+        <div class="container">
+            <div class="text-center py-5">
+                <i class="bi bi-lightning-charge-fill h4"></i>
+                <i class="bi bi-lightning-charge-fill h4"></i>
+                <i class="bi bi-lightning-charge-fill h4"></i>
+            </div>
+            <h2 class="text-center display-4 mb-5">
+                Servicios
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <h5>Lorem ipsum dolor sit.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolor ad animi enim molestias vel
+                        pariatur vero excepturi, quaerat delectus, ex distinctio, nesciunt doloremque mollitia saepe
+                        voluptas ut. Vitae, reiciendis.</p>
+                    <button class="btn btn-outline-light mb-5 mb-lg-0" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalS">
+                        Suscríbete
+                    </button>
+                </div>
+                <div class="col 12 col-lg-8">
+                    <img src="img/slider3.jpg" class="img-fluid rounded">
+                </div>
+                <h1 class="py-5 display-6">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+                    voluptates illo, suscipit laudantium aspernatur reprehenderit facilis non ullam animi debitis
+                    dolorum dolore rerum sapiente ipsum excepturi tenetur quam? Atque, labore"</h1>
+            </div>
+        </div>
+    </main>
+    <!-- FIN MAIN: SERVICIOS -->
+    <!-- INICIO COMENTARIOS -->
+    <section id="comentario" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center py-5 h4">
+                <i class="bi bi-chat-right-dots"></i>
+                <i class="bi bi-chat-right-dots"></i>
+                <i class="bi bi-chat-right-dots"></i>
+            </div>
+            <h2 class="text-center mb-5 display-4">Comentarios</h2>
+            <p class="lead mb-5 text center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio
+                iusto assumenda accusamus molestiae nemo maxime suscipit enim consequuntur earum voluptas repellat quod
+                quibusdam totam, amet aliquid quo! Cum, autem.</p>
+            <div class="row align-items-center">
+                <img src="img/comentario.jpg" class="col-12 col-md-6 col-lg-4 col-xl-3 img-fluid rounded">
+                <div class="accordion col-12 col-md-6 col-lg-8 col-xl-9" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Título Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit</strong> amet consectetur adipisicing elit. Ab veritatis
+                                fugiat at architecto inventore recusandae dolorem unde harum iste, quia odit, dolore
+                                repellat sint quaerat nesciunt saepe itaque. Dolorem, et.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto tenetur incidunt
+                                possimus reiciendis rem harum? Ad quae nemo illo, sed officiis, incidunt ducimus hic
+                                quidem eveniet modi sunt fugit veniam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi soluta beatae, adipisci
+                                corporis illo alias perspiciatis rem doloremque quidem excepturi repudiandae cum, odio
+                                error aperiam ex. Sed praesentium commodi voluptatum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Título Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit</strong> amet consectetur adipisicing elit. Ab veritatis
+                                fugiat at architecto inventore recusandae dolorem unde harum iste, quia odit, dolore
+                                repellat sint quaerat nesciunt saepe itaque. Dolorem, et.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto tenetur incidunt
+                                possimus reiciendis rem harum? Ad quae nemo illo, sed officiis, incidunt ducimus hic
+                                quidem eveniet modi sunt fugit veniam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi soluta beatae, adipisci
+                                corporis illo alias perspiciatis rem doloremque quidem excepturi repudiandae cum, odio
+                                error aperiam ex. Sed praesentium commodi voluptatum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Título Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit</strong> amet consectetur adipisicing elit. Ab veritatis
+                                fugiat at architecto inventore recusandae dolorem unde harum iste, quia odit, dolore
+                                repellat sint quaerat nesciunt saepe itaque. Dolorem, et.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto tenetur incidunt
+                                possimus reiciendis rem harum? Ad quae nemo illo, sed officiis, incidunt ducimus hic
+                                quidem eveniet modi sunt fugit veniam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi soluta beatae, adipisci
+                                corporis illo alias perspiciatis rem doloremque quidem excepturi repudiandae cum, odio
+                                error aperiam ex. Sed praesentium commodi voluptatum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- FIN COMENTARIOS -->
+    <!-- INICIO SUSCRÍBETE  -->
+    <section class=" bg-secondary text-light py-5 " id="suscribete">
+        <div class="container">
+            
+                <div class="text-center py-5 h4">
+                    <i class="bi bi-credit-card-2-back-fill"></i>
+                    <i class="bi bi-credit-card-2-back-fill"></i>
+                    <i class="bi bi-credit-card-2-back-fill"></i>
+                </div>
+            
+            <h2 class="text-center display-4 mb-5">Suscribete</h2>
+            <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse asperiores nulla quam
+                odio temporibus laboriosam beatae vel repellat ipsum deserunt! Labore, laborum nostrum! Eligendi modi
+                dolorem dolore voluptatem voluptatum. Quisquam?</p>
+            <div class="row text-center text-dark ">
+                <!--card 1-->
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card animacion">
+                        <div class="card-body">
+                            <h2 class="my-5">S/.30</h2>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+                <!--card 2-->
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card animacion">
+                        <div class="card-body">
+                            <h2 class="my-5">S/.50</h2>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+                <!--card 3-->
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card animacion" > 
+                        <div class="card-body">
+                            <h2 class="my-5">S/.100</h2>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit.</li>
+                        </ul>
+                        <div class="card-body">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3">Suscríbete</button>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- FIN SUSCRÍBETE -->
+    <!-- INICIO FOOTER -->
+    <footer class="container-fluid bg-dark py-5 text-light text-center">
+        Todos los derechos reservados &copy;2022 | Vanderlei Pérez🍁
+    </footer>
+    <!-- FIN FOOTER-->
+    <!--INICIO MODALES-->
+    <!-- Modal 1-->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Titulo Modal 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, in dolorum. Non laudantium ipsa ea!
+                    Distinctio facilis esse voluptatibus magnam, a eum corrupti similique necessitatibus, cumque rerum
+                    veritatis officiis inventore.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Titulo Modal 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores et explicabo nam itaque, doloribus
+                    molestias possimus ex dicta ratione amet vel rem totam quisquam, ducimus quam atque, laudantium
+                    illum esse.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel3">Titulo Modal 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi ullam corrupti velit sint quam
+                    eos laboriosam ea earum assumenda? Voluptates ut ullam labore a quam eos ducimus! Eos, eaque.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal SERVICIOS-->
+    <div class="modal fade" id="exampleModalS" tabindex="-1" aria-labelledby="exampleModalLabelS" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelS">Titulo Modal Servicios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi ullam corrupti velit sint quam
+                    eos laboriosam ea earum assumenda? Voluptates ut ullam labore a quam eos ducimus! Eos, eaque.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODALES -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </script>
+    <script src="js/navbar.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>
